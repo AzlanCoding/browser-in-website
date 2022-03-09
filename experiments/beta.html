@@ -39,10 +39,10 @@
    { 
      var objFrame=document.getElementById("myIframe");
      var NewUrl = document.getElementById("URL").value;
-     NewUrl = addHttps(NewUrl);
      if (validURL(NewUrl) == false){
        NewUrl = "https://www.google.com/search?q=" + NewUrl;
      }
+     NewUrl = addHttps(NewUrl);
      objFrame.src = NewUrl;
    }
    var elem = document.documentElement
