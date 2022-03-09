@@ -6,6 +6,15 @@
    //var iframe = document.getElementById("myIframe");
    //var website = iframe.src;
    //console.log(website);
+   var Iframe = document.getElementById("myIframe").contentWindow;
+   document.addEventListener("keydown", function(evt) { Iframe.postMessage(JSON.stringify({type:"KeyboardEvent", key:evt.key})); });
+   document.addEventListener("message", handleMessage);
+   function handleMessage(evt) {
+	  var msg = JSON.parse(evt.data);
+	  if (typeof msg === "object" && msg.type && msg.type === "KeyboardEvent") {
+		  document.dispatchEvent("keydown", {key:msg.key});
+	  }
+   }
    document.addEventListener("scroll", function(event) 
    {
     var style = document.getElementById("myIframe").style;
