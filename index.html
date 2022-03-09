@@ -64,7 +64,7 @@
 </head>
 <body>
 <div style="Clear:both;"> 
- <input type="text" value="https://www.google.com" class="frmUrlVal" ID="URL"onfocus="if (this.value == 'Enter a URL here') {this.value=''}" onblur="if (this.value == '') { this.value='Enter a URL here';}">
+ <input type="text" value="https://www.google.com" class="frmUrlVal" ID="URL"onfocus="if (this.value == 'Enter a URL here') {this.value='https://'}" onblur="if (this.value == 'https://' || this.value == 'http://') { this.value='Enter a URL here';}">
  <input type="submit" class="frmSubmit" value="Go" onclick="LoadPage()">
  <input type="button" VALUE="&#65513"  onClick="history.back()"> 
  <input type="button" VALUE="&#65515"  onClick="history.forward()"> 
