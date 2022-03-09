@@ -15,5 +15,8 @@ This extension ignores X-frame-headers and Content Security Policy (CSP) Headers
   -history
   -bookmarks
  -use of cookies to store history and bookmarks
+# Need help from public
+-issue 1
+-converting html code to a progressive web app
 # Known issues
--some websites like reddit can only be shown in the iframe browser for 3 seconds and disappears after that.
+1.some websites like reddit can only be shown in the iframe browser for 3 seconds and disappears after that.
