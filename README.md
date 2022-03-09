@@ -3,6 +3,8 @@ This project is to help students bypass websites blocked by schools device manag
 It makes use of iframe to do so.
 Using this extension to help the site work: https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe
 This extension ignores X-frame-headers and Content Security Policy (CSP) Headers.
+#Disclaimer
+I don't actually know, html and Javascript, i just copy and modify online code based on experience with C++, C# and Python
 **I did not make this extension, someonelse did.
 #Upcoming features
 -fullscreen option (currently experimental)
