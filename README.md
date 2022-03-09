@@ -4,11 +4,14 @@ It makes use of iframe to do so.
 Using this extension to help the site work: https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe
 This extension ignores X-frame-headers and Content Security Policy (CSP) Headers.
 # Disclaimer
-I don't actually know, html and Javascript, i just copy and modify online code based on experience with C++, C# and Python
+I don't actually know, html and Javascript, i just copy and modify online code based on experience with C++, C# and Python.
+I am only 14 😁.
 **I did not make this extension, someonelse did.
-#Upcoming features
+# Recently added features
 -fullscreen option (currently experimental)
+-back and forward buttons
+# Upcoming features
 -history
 -bookmarks
-#known issues
+# Known issues
 -some websites like reddit can only be shown in the iframe browser for 3 seconds and disappears after that
