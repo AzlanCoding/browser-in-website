@@ -6,7 +6,7 @@ This extension ignores X-frame-headers and Content Security Policy (CSP) Headers
 # Disclaimer
 1. I don't actually know, html and Javascript, i just copy and modify online code based on experience with C++, C# and Python.
 2. I am only 14 😁.
-**I did not make this extension, someonelse did.
+3. I did not make this extension, someonelse did.
 # Recently added features
 -fullscreen option (currently experimental)
 -back and forward buttons
