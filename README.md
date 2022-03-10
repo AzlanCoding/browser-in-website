@@ -8,16 +8,16 @@ This extension ignores X-frame-headers and Content Security Policy (CSP) Headers
 2. I am only 14 😁.
 3. I did not make this extension, someonelse did.
 # Recently added features
--fullscreen option (currently experimental)
--back and forward buttons
+1. fullscreen option (currently experimental)
+2. back and forward buttons
 # Upcoming features
--a sidebar that shows:
-  -history
-  -bookmarks
- -use of cookies to store history and bookmarks
+1. a sidebar that shows:
+  a. history
+  b. bookmarks
+2. use of cookies to store history and bookmarks
 # Need help from public
--issue 1
--converting html code to a progressive web app
+1. known issues
+2. converting html code to a progressive web app
 # Known issues
 1.some websites like reddit can only be shown in the iframe browser for 3 seconds and disappears after that.
 2.website accessed can't receive keyboard input
