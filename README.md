@@ -10,7 +10,7 @@ This extension ignores X-frame-headers and Content Security Policy (CSP) Headers
 2. I am only 14 😁.
 3. I did not make this extension, someonelse did.
 # Recently added features
-1. fullscreen option (currently experimental)
+1. fullscreen option ~~(currently experimental)
 2. back and forward buttons
 # Upcoming features
 1. a sidebar that shows:
